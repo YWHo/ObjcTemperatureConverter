@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temperature_converter" translatesAutoresizingMaskIntoConstraints="NO" id="9hv-hD-nBf">
-                                <rect key="frame" x="67" y="50" width="240" height="60"/>
+                                <rect key="frame" x="67" y="60.5" width="240" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="ULe-ec-JBs"/>
                                     <constraint firstAttribute="height" constant="60" id="k5f-fD-ik1"/>
@@ -72,7 +72,6 @@
                         <constraints>
                             <constraint firstItem="9hv-hD-nBf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CUI-fV-SZg"/>
                             <constraint firstItem="hu8-V2-QuT" firstAttribute="top" secondItem="2EM-S7-C0s" secondAttribute="bottom" priority="800" constant="30" id="KCW-i5-QuG"/>
-                            <constraint firstItem="9hv-hD-nBf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="802" constant="30" id="LkS-bW-Rd4"/>
                             <constraint firstItem="hu8-V2-QuT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NBQ-nt-xBl"/>
                             <constraint firstItem="Wg5-Cy-zSs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Obv-ac-AUx"/>
                             <constraint firstItem="2EM-S7-C0s" firstAttribute="top" secondItem="Wg5-Cy-zSs" secondAttribute="bottom" priority="801" constant="60" id="TJU-aU-sjU"/>
@@ -81,6 +80,7 @@
                             <constraint firstItem="Wg5-Cy-zSs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9hv-hD-nBf" secondAttribute="bottom" constant="20" id="cBW-Eg-Hfz"/>
                             <constraint firstItem="Qfl-4q-5fA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eEO-e7-MVn"/>
                             <constraint firstItem="9hv-hD-nBf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jRd-vS-5XB"/>
+                            <constraint firstItem="Wg5-Cy-zSs" firstAttribute="top" secondItem="9hv-hD-nBf" secondAttribute="bottom" priority="800" constant="80" id="paJ-DN-aqp"/>
                             <constraint firstItem="2EM-S7-C0s" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wg5-Cy-zSs" secondAttribute="bottom" constant="20" id="tYA-Xp-zCj"/>
                             <constraint firstItem="2EM-S7-C0s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-30" id="u31-Fo-S3J"/>
                             <constraint firstItem="Qfl-4q-5fA" firstAttribute="top" secondItem="hu8-V2-QuT" secondAttribute="bottom" constant="50" id="yZa-S2-kKz"/>
