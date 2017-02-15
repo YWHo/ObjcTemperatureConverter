@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
 
 @property (nonatomic, weak) IBOutlet UISegmentedControl *segmentedControl;
 @property (nonatomic, weak) IBOutlet UITextField *textField;
@@ -28,6 +28,7 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view, typically from a nib.
+    textField.delegate = self;
     
 }
 
@@ -49,6 +50,12 @@
     
     userTemp = [self.textField.text floatValue];
     
+    // Refresh user key-in data
+    if (userTemp == 0) {
+        self.textField.text = @"0";
+    }
+
+    
     if(fahrenheit) {
         temperature = (9.0/5.0) * userTemp + 32;
     } else {
@@ -58,5 +65,9 @@
     label.text = [NSString stringWithFormat:@"%.1f", temperature];
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField *)tField {
+    [tField resignFirstResponder];
+    return YES;
+}
 
 @end
