@@ -10,19 +10,52 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UISegmentedControl *segmentedControl;
+@property (nonatomic, weak) IBOutlet UITextField *textField;
+@property (nonatomic, weak) IBOutlet UILabel *label;
+@property BOOL fahrenheit;
+
 @end
 
 @implementation ViewController
 
+@synthesize segmentedControl;
+@synthesize textField;
+@synthesize label;
+@synthesize fahrenheit;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)convertTempeture:(id)sender {
+    if(segmentedControl.selectedSegmentIndex==0) {
+        fahrenheit = NO;
+    } else {
+        fahrenheit = YES;
+    }
+
+    float temperature;
+    float userTemp;
+    
+    userTemp = [self.textField.text floatValue];
+    
+    if(fahrenheit) {
+        temperature = (9.0/5.0) * userTemp + 32;
+    } else {
+        temperature = (5.0/9.0) * (userTemp - 32);
+    }
+
+    label.text = [NSString stringWithFormat:@"%.1f", temperature];
 }
 
 
