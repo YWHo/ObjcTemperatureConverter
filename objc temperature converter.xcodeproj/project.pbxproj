@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E30218B1E546A3F0055DEC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E30218A1E546A3F0055DEC5 /* main.m */; };
+		5E30218E1E546A3F0055DEC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E30218D1E546A3F0055DEC5 /* AppDelegate.m */; };
+		5E3021911E546A3F0055DEC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3021901E546A3F0055DEC5 /* ViewController.m */; };
+		5E3021941E546A3F0055DEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3021921E546A3F0055DEC5 /* Main.storyboard */; };
+		5E3021961E546A3F0055DEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3021951E546A3F0055DEC5 /* Assets.xcassets */; };
+		5E3021991E546A3F0055DEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3021971E546A3F0055DEC5 /* LaunchScreen.storyboard */; };
+		5E3021A41E546A3F0055DEC5 /* objc_temperature_converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3021A31E546A3F0055DEC5 /* objc_temperature_converterTests.m */; };
+		5E3021AF1E546A400055DEC5 /* objc_temperature_converterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3021AE1E546A400055DEC5 /* objc_temperature_converterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E3021A01E546A3F0055DEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E30217E1E546A3F0055DEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3021851E546A3F0055DEC5;
+			remoteInfo = "objc temperature converter";
+		};
+		5E3021AB1E546A400055DEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E30217E1E546A3F0055DEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3021851E546A3F0055DEC5;
+			remoteInfo = "objc temperature converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E3021861E546A3F0055DEC5 /* objc temperature converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc temperature converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E30218A1E546A3F0055DEC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E30218C1E546A3F0055DEC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E30218D1E546A3F0055DEC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E30218F1E546A3F0055DEC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E3021901E546A3F0055DEC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E3021931E546A3F0055DEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E3021951E546A3F0055DEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3021981E546A3F0055DEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E30219A1E546A3F0055DEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E30219F1E546A3F0055DEC5 /* objc temperature converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc temperature converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3021A31E546A3F0055DEC5 /* objc_temperature_converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_temperature_converterTests.m; sourceTree = "<group>"; };
+		5E3021A51E546A3F0055DEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3021AA1E546A400055DEC5 /* objc temperature converterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc temperature converterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3021AE1E546A400055DEC5 /* objc_temperature_converterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_temperature_converterUITests.m; sourceTree = "<group>"; };
+		5E3021B01E546A400055DEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E3021831E546A3F0055DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E30219C1E546A3F0055DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3021A71E546A400055DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E30217D1E546A3F0055DEC5 = {
+			isa = PBXGroup;
+			children = (
+				5E3021881E546A3F0055DEC5 /* objc temperature converter */,
+				5E3021A21E546A3F0055DEC5 /* objc temperature converterTests */,
+				5E3021AD1E546A400055DEC5 /* objc temperature converterUITests */,
+				5E3021871E546A3F0055DEC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E3021871E546A3F0055DEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E3021861E546A3F0055DEC5 /* objc temperature converter.app */,
+				5E30219F1E546A3F0055DEC5 /* objc temperature converterTests.xctest */,
+				5E3021AA1E546A400055DEC5 /* objc temperature converterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E3021881E546A3F0055DEC5 /* objc temperature converter */ = {
+			isa = PBXGroup;
+			children = (
+				5E30218C1E546A3F0055DEC5 /* AppDelegate.h */,
+				5E30218D1E546A3F0055DEC5 /* AppDelegate.m */,
+				5E30218F1E546A3F0055DEC5 /* ViewController.h */,
+				5E3021901E546A3F0055DEC5 /* ViewController.m */,
+				5E3021921E546A3F0055DEC5 /* Main.storyboard */,
+				5E3021951E546A3F0055DEC5 /* Assets.xcassets */,
+				5E3021971E546A3F0055DEC5 /* LaunchScreen.storyboard */,
+				5E30219A1E546A3F0055DEC5 /* Info.plist */,
+				5E3021891E546A3F0055DEC5 /* Supporting Files */,
+			);
+			path = "objc temperature converter";
+			sourceTree = "<group>";
+		};
+		5E3021891E546A3F0055DEC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E30218A1E546A3F0055DEC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E3021A21E546A3F0055DEC5 /* objc temperature converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3021A31E546A3F0055DEC5 /* objc_temperature_converterTests.m */,
+				5E3021A51E546A3F0055DEC5 /* Info.plist */,
+			);
+			path = "objc temperature converterTests";
+			sourceTree = "<group>";
+		};
+		5E3021AD1E546A400055DEC5 /* objc temperature converterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3021AE1E546A400055DEC5 /* objc_temperature_converterUITests.m */,
+				5E3021B01E546A400055DEC5 /* Info.plist */,
+			);
+			path = "objc temperature converterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E3021851E546A3F0055DEC5 /* objc temperature converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3021B31E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converter" */;
+			buildPhases = (
+				5E3021821E546A3F0055DEC5 /* Sources */,
+				5E3021831E546A3F0055DEC5 /* Frameworks */,
+				5E3021841E546A3F0055DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objc temperature converter";
+			productName = "objc temperature converter";
+			productReference = 5E3021861E546A3F0055DEC5 /* objc temperature converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E30219E1E546A3F0055DEC5 /* objc temperature converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3021B61E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converterTests" */;
+			buildPhases = (
+				5E30219B1E546A3F0055DEC5 /* Sources */,
+				5E30219C1E546A3F0055DEC5 /* Frameworks */,
+				5E30219D1E546A3F0055DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3021A11E546A3F0055DEC5 /* PBXTargetDependency */,
+			);
+			name = "objc temperature converterTests";
+			productName = "objc temperature converterTests";
+			productReference = 5E30219F1E546A3F0055DEC5 /* objc temperature converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E3021A91E546A400055DEC5 /* objc temperature converterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3021B91E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converterUITests" */;
+			buildPhases = (
+				5E3021A61E546A400055DEC5 /* Sources */,
+				5E3021A71E546A400055DEC5 /* Frameworks */,
+				5E3021A81E546A400055DEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3021AC1E546A400055DEC5 /* PBXTargetDependency */,
+			);
+			name = "objc temperature converterUITests";
+			productName = "objc temperature converterUITests";
+			productReference = 5E3021AA1E546A400055DEC5 /* objc temperature converterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E30217E1E546A3F0055DEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Brian Ho";
+				TargetAttributes = {
+					5E3021851E546A3F0055DEC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+					};
+					5E30219E1E546A3F0055DEC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E3021851E546A3F0055DEC5;
+					};
+					5E3021A91E546A400055DEC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFFUK34A4L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E3021851E546A3F0055DEC5;
+					};
+				};
+			};
+			buildConfigurationList = 5E3021811E546A3F0055DEC5 /* Build configuration list for PBXProject "objc temperature converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E30217D1E546A3F0055DEC5;
+			productRefGroup = 5E3021871E546A3F0055DEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E3021851E546A3F0055DEC5 /* objc temperature converter */,
+				5E30219E1E546A3F0055DEC5 /* objc temperature converterTests */,
+				5E3021A91E546A400055DEC5 /* objc temperature converterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E3021841E546A3F0055DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3021991E546A3F0055DEC5 /* LaunchScreen.storyboard in Resources */,
+				5E3021961E546A3F0055DEC5 /* Assets.xcassets in Resources */,
+				5E3021941E546A3F0055DEC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E30219D1E546A3F0055DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3021A81E546A400055DEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E3021821E546A3F0055DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3021911E546A3F0055DEC5 /* ViewController.m in Sources */,
+				5E30218E1E546A3F0055DEC5 /* AppDelegate.m in Sources */,
+				5E30218B1E546A3F0055DEC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E30219B1E546A3F0055DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3021A41E546A3F0055DEC5 /* objc_temperature_converterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3021A61E546A400055DEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3021AF1E546A400055DEC5 /* objc_temperature_converterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E3021A11E546A3F0055DEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3021851E546A3F0055DEC5 /* objc temperature converter */;
+			targetProxy = 5E3021A01E546A3F0055DEC5 /* PBXContainerItemProxy */;
+		};
+		5E3021AC1E546A400055DEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3021851E546A3F0055DEC5 /* objc temperature converter */;
+			targetProxy = 5E3021AB1E546A400055DEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E3021921E546A3F0055DEC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3021931E546A3F0055DEC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E3021971E546A3F0055DEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3021981E546A3F0055DEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E3021B11E546A400055DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E3021B21E546A400055DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E3021B41E546A400055DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E3021B51E546A400055DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E3021B71E546A400055DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/objc temperature converter.app/objc temperature converter";
+			};
+			name = Debug;
+		};
+		5E3021B81E546A400055DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/objc temperature converter.app/objc temperature converter";
+			};
+			name = Release;
+		};
+		5E3021BA1E546A400055DEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "objc temperature converter";
+			};
+			name = Debug;
+		};
+		5E3021BB1E546A400055DEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WFFUK34A4L;
+				INFOPLIST_FILE = "objc temperature converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmocoder.objc-temperature-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "objc temperature converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E3021811E546A3F0055DEC5 /* Build configuration list for PBXProject "objc temperature converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3021B11E546A400055DEC5 /* Debug */,
+				5E3021B21E546A400055DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3021B31E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3021B41E546A400055DEC5 /* Debug */,
+				5E3021B51E546A400055DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E3021B61E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3021B71E546A400055DEC5 /* Debug */,
+				5E3021B81E546A400055DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E3021B91E546A400055DEC5 /* Build configuration list for PBXNativeTarget "objc temperature converterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3021BA1E546A400055DEC5 /* Debug */,
+				5E3021BB1E546A400055DEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E30217E1E546A3F0055DEC5 /* Project object */;
+}
