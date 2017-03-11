@@ -32,9 +32,49 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testUIFarenheitToCelcius {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"Fahrenheit to Celsius"] tap];
+    
+    XCUIElement *textField = [[app.otherElements containingType:XCUIElementTypeImage identifier:@"temperature_converter"] childrenMatchingType:XCUIElementTypeTextField].element;
+    [textField tap];
+    //[app.keys[@"3"] tap];
+    [textField typeText:@"31"];
+    //[app.keys[@"1"] tap];
+    //[textField typeText:@"1"];
+    [app.buttons[@"Return"] tap];
+    //[app typeText:@"\n"];
+    [app.buttons[@"Convert"] tap];
+    
+    
 }
+
+
+- (void)testUICelciusToFarenheit {
+
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"Celsius to Fahrenheit"] tap];
+    
+    XCUIElement *textField = [[app.otherElements containingType:XCUIElementTypeImage identifier:@"temperature_converter"] childrenMatchingType:XCUIElementTypeTextField].element;
+    [textField tap];
+    //[app.keys[@"3"] tap];
+    [textField typeText:@"32"];
+    //[app.keys[@"2"] tap];
+    //[textField typeText:@"2"];
+    [app.buttons[@"Return"] tap];
+    //[app typeText:@"\n"];
+    [app.buttons[@"Convert"] tap];
+    
+    
+}
+
+
+
+
 
 @end
