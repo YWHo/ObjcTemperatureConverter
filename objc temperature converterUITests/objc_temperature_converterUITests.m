@@ -42,12 +42,8 @@
     
     XCUIElement *textField = [[app.otherElements containingType:XCUIElementTypeImage identifier:@"temperature_converter"] childrenMatchingType:XCUIElementTypeTextField].element;
     [textField tap];
-    //[app.keys[@"3"] tap];
     [textField typeText:@"31"];
-    //[app.keys[@"1"] tap];
-    //[textField typeText:@"1"];
     [app.buttons[@"Return"] tap];
-    //[app typeText:@"\n"];
     [app.buttons[@"Convert"] tap];
     
     
@@ -74,7 +70,13 @@
 }
 
 
-
-
-
 @end
+
+
+
+
+
+
+
+
+
